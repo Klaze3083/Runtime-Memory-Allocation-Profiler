@@ -1,4 +1,4 @@
-##Runtime Memory Allocation Profiler
+# Runtime Memory Allocation Profiler
 
 A dynamic memory analysis tool built with **Intel PIN** that intercepts `malloc`, `calloc`, `realloc`, and `free` calls at runtime — without modifying or recompiling the target binary.
 
