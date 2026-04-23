@@ -1,4 +1,4 @@
-# malloc-tracker-pintool
+# memtrace-pin — Runtime Memory Allocation Profiler
 
 A dynamic memory analysis tool built with **Intel PIN** that intercepts `malloc`, `calloc`, `realloc`, and `free` calls at runtime — without modifying or recompiling the target binary.
 
@@ -53,8 +53,8 @@ The easiest way is to place the tool inside PIN's `source/tools/` directory:
 
 ```bash
 cd $PIN_ROOT/source/tools/
-git clone https://github.com/Klaze3083/malloc-tracker-pintool
-cd malloc-tracker-pintool
+git clone https://github.com/Klaze3083/memtrace-pin
+cd memtrace-pin
 ```
 
 ---
